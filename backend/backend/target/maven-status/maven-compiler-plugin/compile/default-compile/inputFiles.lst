@@ -1,7 +1,9 @@
 /Users/masan/Documents/04-Ada/panier-fute/backend/backend/src/main/java/com/panierfute/repository/ProductRepository.java
+/Users/masan/Documents/04-Ada/panier-fute/backend/backend/src/main/java/com/panierfute/controller/AlarmeController.java
 /Users/masan/Documents/04-Ada/panier-fute/backend/backend/src/main/java/com/panierfute/repository/UserRepository.java
 /Users/masan/Documents/04-Ada/panier-fute/backend/backend/src/main/java/com/panierfute/security/CustomUserDetailsService.java
 /Users/masan/Documents/04-Ada/panier-fute/backend/backend/src/main/java/com/panierfute/dto/AuthResponse.java
+/Users/masan/Documents/04-Ada/panier-fute/backend/backend/src/main/java/com/panierfute/controller/ShoppingListController.java
 /Users/masan/Documents/04-Ada/panier-fute/backend/backend/src/main/java/com/panierfute/dto/RegisterRequest.java
 /Users/masan/Documents/04-Ada/panier-fute/backend/backend/src/main/java/com/panierfute/controller/AuthController.java
 /Users/masan/Documents/04-Ada/panier-fute/backend/backend/src/main/java/com/panierfute/repository/ShoppingListRepository.java
@@ -19,3 +21,4 @@
 /Users/masan/Documents/04-Ada/panier-fute/backend/backend/src/main/java/com/panierfute/model/Budget.java
 /Users/masan/Documents/04-Ada/panier-fute/backend/backend/src/main/java/com/panierfute/security/JwtFilter.java
 /Users/masan/Documents/04-Ada/panier-fute/backend/backend/src/main/java/com/panierfute/model/Product.java
+/Users/masan/Documents/04-Ada/panier-fute/backend/backend/src/main/java/com/panierfute/controller/BudgetController.java

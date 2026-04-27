@@ -2,9 +2,11 @@ com/panierfute/dto/LoginRequest.class
 com/panierfute/controller/AuthController.class
 com/panierfute/model/Alarme$TypeAlarme.class
 com/panierfute/security/JwtUtil.class
+com/panierfute/controller/ShoppingListController.class
 com/panierfute/repository/ProductRepository.class
 com/panierfute/repository/BudgetRepository.class
 com/panierfute/model/Achat.class
+com/panierfute/controller/BudgetController.class
 com/panierfute/repository/UserRepository.class
 com/panierfute/security/CustomUserDetailsService.class
 com/panierfute/model/Budget$BudgetType.class
@@ -22,3 +24,4 @@ com/panierfute/App.class
 com/panierfute/dto/RegisterRequest.class
 com/panierfute/security/JwtFilter.class
 com/panierfute/repository/AlarmeRepository.class
+com/panierfute/controller/AlarmeController.class

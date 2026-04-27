@@ -1,15 +1,9 @@
 package com.panierfute.model;
 
 import jakarta.persistence.*;
-import lombok.Data;
-import lombok.NoArgsConstructor;
-import lombok.AllArgsConstructor;
 
 @Entity
 @Table(name = "budgets")
-@Data
-@NoArgsConstructor
-@AllArgsConstructor
 public class Budget {
 
     @Id
@@ -29,13 +23,17 @@ public class Budget {
     @JoinColumn(name = "user_id", nullable = false)
     private User user;
 
-    public enum BudgetType {
-        JOURNALIER,
-        HEBDOMADAIRE,
-        MENSUEL
-    }
+    public enum BudgetType { JOURNALIER, HEBDOMADAIRE, MENSUEL }
 
-    public Double getRemaining() {
-        return amount - spent;
-    }
+    public Long getId() { return id; }
+    public void setId(Long id) { this.id = id; }
+    public Double getAmount() { return amount; }
+    public void setAmount(Double amount) { this.amount = amount; }
+    public BudgetType getType() { return type; }
+    public void setType(BudgetType type) { this.type = type; }
+    public Double getSpent() { return spent; }
+    public void setSpent(Double spent) { this.spent = spent; }
+    public User getUser() { return user; }
+    public void setUser(User user) { this.user = user; }
+    public Double getRemaining() { return amount - spent; }
 }
