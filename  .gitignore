@@ -1,0 +1,15 @@
+# Angular
+frontend/node_modules/
+frontend/dist/
+
+# Java
+backend/backend/target/
+*.class
+*.jar
+
+# Env
+.env
+.env.local
+
+# OS
+.DS_Store
