@@ -1,1 +1,15 @@
+AchatRepository.class
+BudgetRepository.class
+com/panierfute/model/Alarme$TypeAlarme.class
+com/panierfute/model/Alarme.class
+ProductRepository.class
+ShoppingListRepository.class
+com/panierfute/model/Achat.class
+com/panierfute/model/Product.class
+com/panierfute/model/Alarme$Canal.class
 com/panierfute/App.class
+AlarmeRepository.class
+com/panierfute/model/Budget$BudgetType.class
+com/panierfute/model/Budget.class
+com/panierfute/model/User.class
+com/panierfute/model/ShoppingList.class
