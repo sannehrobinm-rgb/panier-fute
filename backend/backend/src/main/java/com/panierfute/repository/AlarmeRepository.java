@@ -1,3 +1,5 @@
+package com.panierfute.repository;
+
 import com.panierfute.model.Alarme;
 import org.springframework.data.jpa.repository.JpaRepository;
 import java.util.List;

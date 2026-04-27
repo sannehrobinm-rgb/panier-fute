@@ -1,3 +1,5 @@
+package com.panierfute.repository;
+
 import com.panierfute.model.Product;
 import org.springframework.data.jpa.repository.JpaRepository;
 import java.util.List;
